@@ -1,12 +1,44 @@
-# Matrix
-Description: This is a simple console-based program for performing basic matrix calculations, including addition, multiplication, and transposition. The program is intended for educational purposes and can be used to practice fundamental concepts in linear algebra.
+# 🧮 Matrix Operations in C#
 
-Usage instructions: To use the program, simply run the executable file and follow the on-screen prompts. The program will ask you to create two matrices and then prompt you to choose an operation to perform. You can choose from the following operations:
+A simple C# console application that allows users to create and manipulate matrices. This project demonstrates basic matrix operations including **addition**, **multiplication**, **transposition**, and **sparsity check**, using object-oriented principles.
 
-Add matrices: Add two matrices together
-Multiply matrices: Multiply two matrices together
-Transpose a matrix: Transpose a matrix
-Exit: Exit the program
-Limitations: The program is currently limited to matrices with dimensions up to 10 x 10. Additionally, the program does not currently handle exceptions or errors gracefully.
+---
 
-Dependencies: The program does not depend on any external libraries or frameworks.
+## 📌 Features
+
+- ✅ Create custom-sized matrices
+- ➕ Add two matrices
+- ✖️ Multiply two matrices
+- 🔄 Transpose a matrix
+- 🔍 Check if a matrix is sparse
+- 🎛️ Console menu interface with input validation
+
+---
+
+## 🧰 Technologies Used
+
+- **Language:** C# (.NET Core or .NET Framework)
+- **Environment:** Console Application
+
+---
+
+## 📂 Project Structure
+
+- `Matrix.cs` – Matrix class with methods for:
+  - Inputting matrix values
+  - Printing matrix
+  - Addition, multiplication, and transpose
+  - Sparse matrix detection
+- `Program.cs` – Contains the main menu logic and user interaction
+
+---
+🧠 Learning Objectives
+This project is great for learning or practicing:
+
+Object-Oriented Programming (OOP) in C#
+
+Matrix operations and logic implementation
+
+User input handling and exception management
+
+Console application structure
